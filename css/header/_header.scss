@@ -1,0 +1,252 @@
+.yt_header{
+    width: 100%;
+    height: 5.5rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    // justify-content: space-between;
+}
+.header_left_container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.toggle{
+    width: 4rem;
+    padding: 0.7rem;
+    border: 1px solid rgba($color: #000000, $alpha: 0.0);
+    background:  rgba($color: #000000, $alpha: 0.0);
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 1.6rem;
+    margin-right: 0.1rem;
+}
+.toggle:hover{
+    background:  rgba($color: #000000, $alpha: 0.1);
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+}
+
+// youtube logo style 
+.yt_logo{
+    width: 12rem;
+    padding: 1.5rem;
+}
+
+// YouTube middle side section 
+.yt_middle_container{
+    width:55%;
+    // background: #000000;
+    height: 100%;
+    padding-left:5.6rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yt_search{
+    display: flex;
+    align-items: center;
+    width: 91%;
+    // background: gray;
+    height: 100%;
+}
+.yt_search_box{
+    display: flex;
+    align-items: center;
+    width: 90.5%;
+    height: 100%;
+}
+#search{
+    width: 100%;
+    height: 4rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 1.6rem;
+    color: #111111;
+    letter-spacing: 0.01rem;
+    text-shadow: -1px -1px 4px rgba(0,0,0,0.1) ;
+    border-radius:0.2rem;
+}
+#search::placeholder{
+    font-weight: 500;
+    color: rgb(150, 149, 149)
+}
+#search:focus{
+    outline: 1px solid rgba(21, 21, 190, 0.849)
+}
+.yt_search_icon{
+    width: 10%;
+    height: 4rem;
+}
+#search_icon{
+    width: 100%;
+    height: 100%;
+    border:1px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba($color: #000000, $alpha: 0);
+    outline: none;
+    border-radius: 0rem 0.2rem 0.2rem 0rem;
+    cursor: pointer;
+    padding:0.7rem ;
+    background: rgba(0,0,0,0.02);
+}
+#search_icon:active{
+    background: rgba(0,0,0,0.1);
+}
+.yt_voice{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.3rem;
+}
+#voice{
+    width: 100%;
+    height: 100%;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.0);
+    background: rgba(0,0,0,0.00);
+    cursor: pointer;
+}
+#voice:active{
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.07);
+}
+// YouTube Right side section 
+.yt_right_container{
+    width:25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+.create{
+    width: 3.8rem;
+    height: 3.8rem;
+    margin:  0rem 0.8rem;
+    #create_video{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border:1px solid rgba(0,0,0,0.0);
+        background: rgba(0,0,0,0.0);
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+    #create_video:active{
+        border:1px solid rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.07);
+    }
+}
+.yt_app{
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 0rem 0.8rem;
+    #app{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border:1px solid rgba(0,0,0,0.0);
+        background: rgba(0,0,0,0.0);
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+    #app:active{
+        border:1px solid rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.07);
+    }
+}
+.yt_notifiction{
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 0rem 0.8rem;
+    #notifiction{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border:1px solid rgba(0,0,0,0.0);
+        background: rgba(0,0,0,0.0);
+        padding: 0.6rem;
+        cursor: pointer;
+    }
+    #notifiction:active{
+        border:1px solid rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.07);
+    }
+}
+.yt_profile{
+    width: 3.4rem;
+    height: 3.4rem;
+    margin: 0rem 0.6rem;
+    margin-right: 1rem;
+    #profile{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border:1px solid rgba(0,0,0,0.0);
+        background: rgba(0,0,0,0.0);
+        cursor: pointer;
+        overflow: hidden;
+
+        img{
+            border-radius: 50%;
+        }
+    }
+    #profile:active{
+        border:1px solid rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.07);
+    }
+}
+.yt_setting{
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 0rem 0.3rem;
+    margin-right: 1rem;
+    #setting{
+        padding: 0.7rem;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border:1px solid rgba(0,0,0,0.0);
+        background: rgba(0,0,0,0.0);
+        cursor: pointer;
+        overflow: hidden;
+        img{
+            border-radius: 50%;
+        }
+    }
+    #setting:active{
+        border:1px solid rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.07);
+    }
+}
+.yt_signin_btn{
+    width: 10rem;
+    height: 3.8rem;
+    margin-right: 1rem;
+    .path{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #signin_btn{
+        border: 1px solid #065fd4;
+        background: none;
+        border-radius: 0.4rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+
+    }
+    span{
+        color:#065fd4;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
